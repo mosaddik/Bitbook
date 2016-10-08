@@ -1,0 +1,39 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EditProfile</title>
+    <link href="~/Content/Profile/EditProfile.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="body">
+        <div class="col-md-2">
+            <div id="menuBar">
+                <ul id="menubarUL">
+                    <li>@Html.ActionLink("Genarel", "EditProfile", "Profile")</li>
+                    <li>@Html.ActionLink("Address", "AddressEdit", "Profile")</li>
+                    <li>@Html.ActionLink("Work", "WorkInfoEdit", "Profile")</li>
+                    <li>@Html.ActionLink("Area Of Interest", "AreaOfInterrestEdit", "Profile")</li>
+                    <li>@Html.ActionLink("Education", "Education", "Profile")</li>
+                    <li>@Html.ActionLink("Change Cover Picture", "CoverPicture", "Profile")</a></li>
+                    <li>@Html.ActionLink("Change Profile Picture", "ProfileEdit", "Profile")</li>
+                    <li>@Html.ActionLink("Change Password", "ChangePassword", "Profile")</li>
+                </ul>
+            </div>
+        </div> <!-- e nd of side navbar-->
+
+
+        <div class="col-md-8 container row" id="editBody">
+            <div class="col-md-10">
+                @RenderBody()
+            </div>
+        </div><!--  end of edit body-->
+
+    </div>
+</body>
+</html>

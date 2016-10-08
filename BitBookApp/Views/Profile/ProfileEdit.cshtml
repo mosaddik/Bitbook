@@ -1,0 +1,31 @@
+﻿
+@using BitBookApp.ViewModel.Profile
+@model BitBookApp.ViewModel.Profile.ViewProfilePicture
+@{
+    Layout = "~/Views/Shared/_EditProfile.cshtml";
+    string path = "~/Image/ProfilePic/"+ViewBag.Image;
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+
+    <img src=@Url.Content(path) height="100" width="100" />
+    
+
+    @using (Html.BeginForm("ImageUpload", "Profile", FormMethod.Post,
+        new {enctype = "multipart/form-data"}))
+    {
+        <label >Upload Image:</label>
+        @Html.TextBoxFor(a => a.Picture, new {type = "file"})
+        <input type="submit" value="Upload" class="submit"/>
+    }
+</div>
+</body>
+</html>

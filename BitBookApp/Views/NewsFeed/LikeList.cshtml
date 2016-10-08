@@ -1,0 +1,42 @@
+﻿@using BitBookApp.Models
+using BitBookApp.Models
+
+
+<!DOCTYPE html>
+
+<html>
+@{
+    List<Like> likeList = ViewBag.LikeList;
+    string image = "~/Image/ProfilePic/";
+}
+<head>
+    <link href="~/Content/Profile/EditProfile.css" rel="stylesheet" />
+    <link href="~/Content/FriendList.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>LikeList</title>
+</head>
+<body>
+    <div id="friendList" class="container col-md-12" align="center">
+        <h1> Like LIST</h1>
+
+       
+        
+            <table class="table">
+                @foreach (var like in likeList)
+                {
+                    <tr>
+
+                        <td><img src=@Url.Content(image + like.UserId.Profile.Picture) height="100" width="100"> </td>&nbsp;
+                        <td style="font-size: 30px;"> <a href=@Url.Action("Index", "Profile", new { Id = like.UserId.Profile.Id })> @like.UserId.Profile.FristName @like.UserId.Profile.LastName</a></td>
+
+                       
+                    </tr>
+                }
+
+            </table>
+        }
+
+
+    </div>
+</body>
+</html>

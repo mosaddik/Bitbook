@@ -1,0 +1,35 @@
+﻿@model BitBookApp.ViewModel.Registration.ViewModelRegistrationLogin
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RegistationComplete</title>
+</head>
+<body>
+<div class="col-md-12" id="messegContainer">
+<div id="MessegeHeader">
+    <p id="Messege">Finish Registration </p>
+</div><!-- end of Messge Header -->
+<div id="MessegeBody">
+    An email has been sent to the following email address:
+    <p>@ViewBag.Email</p>
+    <p>Check your e-mail account! Please don't forget to check for our email in your "spam" folder, because it may have landed there. :)</p>
+    Haven't received the activation e-mail?
+  
+   Did you mistype it? I'll give another e-mail address. 
+
+    If you cannot move on, please write to the following address:
+    technical.support@bitBook.com
+
+</div>
+
+
+</div>
+</body>
+</html>

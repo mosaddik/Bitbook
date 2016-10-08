@@ -1,0 +1,242 @@
+﻿@using System.Web.UI.HtmlControls
+@using BitBookApp.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitBook</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/NewsFeed/Index.css" rel="stylesheet" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/Search/Search.css" rel="stylesheet" />
+    @{
+        var Notification = "https://cdn1.iconfinder.com/data/icons/freeline/32/bell_sound_notification_remind_reminder_ring_ringing_schedule-128.png";
+         var profile = (Profile)ViewBag.CurrentUserProfile;
+         var profilePicture = "~/Image/ProfilePic/" + profile.Picture;     
+      }    
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top" id="nav">
+        
+    <!-- search option-->
+    @using (Html.BeginForm("Search", "NewsFeed"))
+    {
+        <div class="col-md-8" id="seachBox">
+            <div class="col-md-8"><input type="text" class="form-control" id="search" name="searchName" /></div>
+            <input type="hidden" value="Index" id="layout" name="layout" />
+           <div class="col-md-4" id="searchButton"><input type="submit" class="btn btn-sm" value="ok" /> </div>
+             
+    
+        </div> <!-- end of seach Option -->
+
+    }
+
+    <div class="col-md-6" id="profile">
+        <div id="myProfile">
+            <img src=@Url.Content(profilePicture) height="30" width="30"> <a style="text-decoration: none;color:white"href="@Url.Action("Index","Profile")"><span style="margin-left:3px;font-weight:bold">@ViewBag.Name <span style="color:black;color:Highlight">|</span></span></a>
+            <span style="margin-left: 3px; font-weight: bold"><a style="text-decoration: none; color: white"href=@Url.Action("Index", "NewsFeed")>Home</a> </span> <span style="margin-left: 4px;"> <span style="z-index: 9; margin-left: 10px" color:red>
+             1 <span></span>
+            <img src="http://iconizer.net/files/Facebook/orig/groups.png" id="friendReqeustButton" height="30" width="30">
+</span>
+            <span style="margin-left: 4px"> <img src= @Url.Content(Notification) id="notification" height="35" width="35" /></span><span color:red> 1</span> &nbsp; &nbsp;
+
+
+
+            <!--  drop down menu for -->
+            <div class="dropdown col-md-2">
+                <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li style="color: black;text-decoration: none"><a href="@Url.Action("Logout","Login")"></a>Logout</li>
+
+                </ul>
+            </div>
+            
+                    
+
+
+        </div>   
+                
+
+                
+      
+                 
+    </div><!-- end of navbarHeader-->
+</div>
+
+
+@{
+    var a = "";
+  
+}
+   
+
+        @if (ViewBag.Search != null)
+{
+    <div style="display: inline-block; margin-top: 35px; text-decoration: none" id="searchBody">
+        @foreach (var profile1 in ViewBag.Search)
+        {
+        <ul>
+            <li style="text-decoration: none;list-style: none"><a href="@Url.Action("Index","Profile",new  { id = @profile1.Id})"><img src=@Url.Content("~/Image/ProfilePic/"+@profile1.Picture) height="80" width="80"> @profile1.FristName @profile1.LastName</a></li>
+        </ul>
+
+        }
+    </div>
+
+}
+
+
+
+<div style="display: inline-block; margin-left: 700px;">
+
+    @if (ViewBag.FriendRequest != null)
+    {
+        List<User> friendReqeust = ViewBag.FriendRequest;
+
+        <ul id="searchBody" class="friendReqeust">
+
+            @foreach (var user in friendReqeust)
+            {
+                if (user.Profile.Picture == null)
+                {
+                    user.Profile.Picture = "https://www.elmastudio.de/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png";
+                }
+                else
+                {
+                    user.Profile.Picture = "~/Image/ProfilePic/" + user.Profile.Picture;
+                }
+                <li>
+                    @using (Html.BeginForm("MakeDicisionConfirmOrCancel", "FriendRequest"))
+                    {
+
+
+                        <table>
+                            <tr>
+                                <td><a href="@Url.Action("Index", "Profile", new {Id = @user.Profile.Id})"><img src=@Url.Content(@user.Profile.Picture) height="50" width="50"/> @user.Profile.FristName @user.Profile.LastName </a></td>
+                                <td><button type="submit" value="1" name="button" id="confirm" class="btn-success btn"> Confirm </button></td>
+                                <input type="hidden" value=@profile.Id name="user1ProfileId"/>
+                                <input type="hidden" value=@user.Id name="friend1"/>
+                                <td><button type="submit" value="0" name="button" id="cancel" class="btn btn-danger"> Cancel</button></td>
+                            </tr>
+                        </table>
+                    }
+                </li>
+
+            }
+
+        </ul>
+    }
+
+</div>
+
+
+
+
+
+
+
+ <div style=" display: inline-block; margin-left: 700px;">
+
+        @if (ViewBag.FriendRequest != null)
+        {
+            List<User> friendReqeust = ViewBag.FriendRequest;
+
+            <ul id="searchBody" class="notficationShow">
+
+                @foreach (var user in friendReqeust)
+                {
+                    if (user.Profile.Picture == null)
+                    {
+                        user.Profile.Picture = "https://www.elmastudio.de/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png";
+                    }
+                    else
+                    {
+                        user.Profile.Picture = "~/Image/ProfilePic/" + user.Profile.Picture;
+                    }
+                    <li>
+                        @using (Html.BeginForm("MakeDicisionConfirmOrCancel", "FriendRequest"))
+                        {
+
+
+                            <table>
+                                <tr>
+                                    <td><a href="@Url.Action("Index", "Profile", new {Id = @user.Profile.Id})"><img src=@Url.Content(@user.Profile.Picture) height="50" width="50" /> @user.Profile.FristName @user.Profile.LastName </a></td>
+                                    <td><button type="submit" value="1" name="button" id="confirm" class="btn-success btn"> Confirm </button></td>
+                                    <input type="hidden" value=@profile.Id name="user1ProfileId" />
+                                    <input type="hidden" value=@user.Id name="friend1" />
+                                    <td><button type="submit" value="0" name="button" id="cancel" class="btn btn-danger"> Cancel</button></td>
+                                </tr>
+                            </table>
+                        }
+                    </li>
+
+                }
+
+            </ul>
+        }
+
+    </div>
+
+
+
+
+
+<div class="container-fluid" id="body">
+    @RenderBody()
+  
+    <footer>
+
+    </footer>
+</div>
+
+  
+    <script src="~/Scripts/jquery-3.1.0.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script>
+
+    $(document)
+        .ready(function () {
+
+            var friendReqeust = $(".friendReqeust");
+            var notification = $("#notification");
+            var notficationShow = $(".notficationShow");
+
+
+            friendReqeust.hide();
+            notficationShow.hide();
+
+            var friendReqeustButton = $("#friendReqeustButton");
+
+
+            friendReqeustButton.click(function () {
+                friendReqeust.show();
+                notficationShow.hide();
+            });
+            $("#body").click(function () {
+                $("#searchBody").css({ "display": "none" });
+                friendReqeust.hide();
+                notficationShow.hide();
+            });
+
+            notification.click(function () {
+                notficationShow.show();
+                friendReqeust.hide();
+            });
+
+
+
+
+
+        });
+    
+        
+    
+    
+
+</script>
+
+</body>
+</html>

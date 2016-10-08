@@ -1,0 +1,32 @@
+﻿@model BitBookApp.ViewModel.Profile.ViewModelEducation
+
+@{
+    
+    Layout = "~/Views/Shared/_EditProfile.cshtml";
+    string school = ViewBag.School;
+    string college = ViewBag.College;
+    string university = ViewBag.University;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Education</title>
+</head>
+<body>
+<div>
+    @using (Html.BeginForm("EducationEdit", "Profile"))
+    {
+        @Html.LabelFor(a=>a.School)
+        @Html.TextBoxFor(a => a.School, new {@class = "form-control", Value = school})
+        @Html.LabelFor(a=>a.College)
+        @Html.TextBoxFor(a => a.College, new {@class = "form-control", Value = college})
+        @Html.LabelFor(a=>a.University)
+         @Html.TextBoxFor(a => a.University, new {@class = "form-control", Value = university})
+
+        <button type="submit" class="btn btn-info" style="margin-top: 10px;"> Save Changes </button>
+    }
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿#coverPicture {
+   
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+      -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+#list {
+   list-style-type: none;
+    margin: 0;
+    padding-left: 300px;
+    overflow: hidden;
+    background-color: whitesmoke;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+}
+
+#profilePicture {position: absolute;z-index: 9; height: 200px; width: 200px; position: absolute; margin-top: 240px; margin-left: 20px; }
+#list li {
+    float: left;
+}
+#list li a {
+    display: block;
+ 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gainsboro;
+}
+#list  li a:hover {
+    background-color: darkgray;
+}
+
+
+#Introduction {
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+    width: 100%;
+    color: blue;
+    height: 1000px;
+     list-style-type: none;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+}
+#addFriendButton {
+    position: absolute;
+    z-index: 9;
+    margin-top: 350px;
+    margin-left: 1000px;
+}
+.Posts {
+    background-color:white;
+    margin: 40px;
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+}
+#user {
+    margin-top: 10px;
+}

@@ -1,0 +1,132 @@
+﻿
+@using BitBookApp.Models
+@model BitBookApp.ViewModel.ViewModelPost
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var profile = (Profile)ViewBag.CurrentUserProfile
+        ;
+    var profilePicture = "~/Image/ProfilePic/" + profile.Picture;
+     List<Post> postList =
+    ViewBag.PostList;
+    
+    var pic = "~/Image/ProfilePic/" ;
+ }
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/NewsFeed/CoverPicure.css" rel="stylesheet" />
+    <title>Bit Book</title>
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+<div class="col-md-2 container-fluid" style="margin-top: 40px;">
+    <span class="col-md-1"><img src="@Url.Content(profilePicture)" height="20" width="20" /></span>
+    <span class="col-md-10" style="color: black"><p>@profile.FristName </p></span>
+    <span class="col-md-1 glyphicon glyphicon-edit" style="color:black"></span>
+    <span class="col-md-10" style="color:black">@Html.ActionLink("Edit Profile", "EditProfile", "Profile")</span>
+</div> <!--  end of Menu Bar Container -->
+
+    <div class="col-md-7 ">
+        <div id="makeAPost" class="Posts">
+            @using (Html.BeginForm("MakeAPost", "Status", FormMethod.Post,
+        new { enctype = "multipart/form-data" }))
+            {
+                <textarea class="form-control" name="post" rows="5" placeholder="what's your mind ?'"></textarea>
+                <div style="margin-top: 4px;">
+                    <span class="col-md-11">
+                        <p class="col-md-8">
+                            @Html.TextBoxFor(a => a.Picture, new { type = "file" })
+                    </p>
+                </span><button class="btn btn-sm btn-info" type="submit"> Post</button>
+            </div>
+            }
+        </div>
+
+        @foreach (var post in postList)
+        {
+
+
+            <div class="Posts">
+                <div class="col-md-12">
+                <div class="col-md-10">
+                    <p id="user"> <img src=@Url.Content(pic + post.User.Profile.Picture) height="80" width="80">&nbsp; &nbsp; <a href=@Url.Action("Index", "Profile", new {Id = post.User.Profile.Id})>@post.User.Profile.FristName @post.User.Profile.LastName </a>
+                    </p>
+                </div>
+
+                @if (ViewBag.currentUser == post.User.Id)
+                {
+
+                    <div class="col-md-2">
+                        @using (Html.BeginForm("RemovePost", "Status"))
+                    {
+                        
+                    
+                        <button type="submit" value="@post.Id" name="removePost" class="btn btn-danger btn-sm">Remove</button>
+                    }
+                    </div>                    
+                }
+                
+                </div>
+                <p id="postContents">
+                    @post.UserPost
+                </p>
+
+                @if (post.PostPicture != "a")
+                {
+                    <p id="picture">
+                        <img src=@Url.Content(pic + post.PostPicture) height="300" width="400"/>
+                    </p>
+                }
+                
+
+                <div id="menu">
+                    <ul class="nav nav-pills">
+
+                        <li> <a href=@Url.Action("LikeAPost", "Like", new {@postId = post.Id})> Like </a></li>
+
+                        <li style="margin-left: 3px;"> <a href="#"> Comments </a> </li>
+                    </ul>
+                    <span><img src="~/1475123944_like.png" height="20" width="20" />  </span> <span style  ="margin-left:3px;"> @post.NoOfLike    <a href=@Url.Action("LikeList", "NewsFeed", new { postId = post.Id })> Like List </a></span>
+
+
+                </div>
+                @if (post.Comment != null)
+                {
+                    foreach (var comments in post.Comment)
+                    {
+                        if (comments != null)
+                        {
+
+                            <p id="t"><img src=@Url.Content(pic + comments.User.Profile.Picture) height="30" width="30"/> <a href=@Url.Action("Index","Profile", new  {Id = comments.post.User.Profile.Id})>@comments.User.Profile.FristName @comments.User.Profile.LastName </a><br/>    @comments.UserComment </p>
+                        }
+                        
+                }
+
+                }
+                @using (@Html.BeginForm("Comment", "Comments"))
+                {
+                <p id="t"><input type="text" class="form-control" name="commets" placeholder="write your comment on this post"/>
+                    <input type="hidden" name="postId" value="@post.Id"/>
+                </p>
+                }
+            </div>
+                    }
+
+
+                }
+
+}
+    </div>
+
+
+
+
+</body>
+</html>
+

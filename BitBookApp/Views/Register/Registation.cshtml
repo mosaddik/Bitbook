@@ -1,0 +1,153 @@
+﻿@using System.Web.Mvc.Html
+@using System.Web.UI.WebControls
+@model BitBookApp.ViewModel.Registration.ViewModelRegistrationLogin
+
+           
+@{
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-3.1.0.min.js"></script>
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Registration/Registration.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <title>Registation</title>
+</head>
+<body>
+
+    <div id="login" class="col-md-12">
+      @using (Html.BeginForm("Login", "Login"))
+      {
+        <p>
+            @Html.LabelFor(a => a.ViewModelLogin.EmailForLogin)
+            @Html.TextBoxFor(a => a.ViewModelLogin.EmailForLogin) 
+            @Html.ValidationMessageFor(a => a.ViewModelLogin.EmailForLogin)&nbsp; &nbsp;
+            
+            @Html.LabelFor(a => a.ViewModelLogin.PasswordForLogin)
+            @Html.PasswordFor(a => a.ViewModelLogin.PasswordForLogin) 
+            @Html.ValidationMessageFor(a=>a.ViewModelLogin.PasswordForLogin)&nbsp; &nbsp;
+           
+            <input type="submit" class="btn-default" value="Login">
+        </p>
+      }
+
+    </div>
+<div class="col-md-12 " id="Main">
+
+
+
+    <div class="col-md-12" id="Header">
+
+    </div> <!-- end of header div-->
+
+    <div class="col-md-12" id="Body">
+
+        <div id="loginInPanel" class="col-md-12 row-fluid">
+
+
+
+        </div><!-- end of log in pannel-->
+
+
+
+        <div id="rightDiv">
+            <div class="col-md-8" id="registationForm">
+                <div class="col-md-12" id="fromHeader">
+                    <h2>New to BitBook ? </h2>
+                    <div class="col-md-12" id="formsubHeader">
+                        <p> Join millions of BitBook Members around the globe </p>
+                    </div> <!-- end of Form subHeader-->
+                </div> <!-- end of form header-->
+                <div class="col-md-12" id="formBody">
+
+                    @using (Html.BeginForm("RegistationComplete", "Register"))
+                    {
+
+
+                        @Html.TextBoxFor(r => r.ViewModelRegistration.Email, new {@class = "form-control", placeholder = "Email"})<br/>
+                         <p style="color:red"> @Html.ValidationMessageFor(a => a.ViewModelRegistration.Email) </p>
+
+                        <div id="hiddenToUserAtLoad">
+                            @Html.PasswordFor(r => r.ViewModelRegistration.Password, new {placeholder = "Password", @class = "form-control"})
+
+                            <p style="color:red">
+                                @Html.ValidationMessageFor(a => a.ViewModelRegistration.Password) </p>
+                                <br />
+
+                                @Html.PasswordFor(a => a.ViewModelRegistration.ConfirmPassword, new { @class = "form-control", placeholder = "Confirm your Password" })<br />
+<p style="color:red"> @Html.ValidationMessageFor(a => a.ViewModelRegistration.ConfirmPassword)</p>
+
+                            @Html.TextBoxFor(r => r.ViewModelRegistration.FirstName, new {@class = "form-control", placeholder = "Enter First Name "})<br/>
+                            <p style="color:red">
+                                @Html.ValidationMessageFor(a => a.ViewModelRegistration.FirstName)</p>
+
+
+
+                                @Html.TextBoxFor(r => r.ViewModelRegistration.LastName, new { @class = "form-control", placeholder = "Enter Last Name" })
+                            <p style="color:red">
+                                @Html.ValidationMessageFor(a => a.ViewModelRegistration.LastName)</p>
+                                <br />
+                                @Html.LabelFor(r => r.ViewModelRegistration.Gender)
+<p> @Html.RadioButtonFor(a=>a.ViewModelRegistration.Gender, "Male") Male
+                                @Html.RadioButtonFor(a=>a.ViewModelRegistration.Gender, "Female") Female </p>
+                            <p style="color:red">
+                                @Html.ValidationMessageFor(a => a.ViewModelRegistration.Gender)
+                            </p>
+                            @Html.LabelFor(r => r.ViewModelRegistration.BirthDay)
+                            <p>
+                                @Html.DropDownList("day", new SelectList(ViewBag.Days, "Value", "Text"), new { @class = "dropdown" })
+                                @Html.DropDownList("Month", new SelectList(ViewBag.Months, "Value", "Text"))
+                                @Html.DropDownList("year", new SelectList(ViewBag.Years, "Value", "Text"))
+                            <p style="color:red">
+                                @Html.ValidationMessageFor(a => a.ViewModelRegistration.BirthDay)
+                            </p>
+                                
+                           
+
+
+
+                            <div align="center" id="registationButton">
+                                <button type="submit" class="btn btn-success"> Sign Up</button>
+                            </div> <!-- end of registation Button-->
+
+
+                        </div>
+
+                    }
+                    <!-- end of formBody -->
+                </div> <!-- end of registationForm div-->
+            </div><!-- end of body div-->
+
+            <div id="signupWithGmail" align="center">
+                <button id="GmailRegistrationButton" class="btn btn-danger">Sign up With Gmail </button>
+            </div> <!-- end signup With Gmail-->
+
+
+            <div id="signupWithfacebook" align="center" style="margin-top: 10px">
+                <button id="facebookRegistrationButton"class="btn btn-info">Sign up With facebook </button>
+            </div> <!-- end signup With Gmail-->
+        </div> <!-- end of right div-->
+
+
+
+    </div> <!-- end of main div-->
+</div>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/Custom/validation.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/Custom/Registration.js"></script>
+
+
+</body>
+</html>

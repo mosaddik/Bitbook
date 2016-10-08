@@ -1,0 +1,20 @@
+﻿#searchBody {  
+    position: absolute;
+    color: black;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    z-index:9; 
+    min-width: 400px;
+    list-style: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    overflow:scroll; height:400px;       
+}
+#searchBody li:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #D3D3D3;
+}
+    
+       

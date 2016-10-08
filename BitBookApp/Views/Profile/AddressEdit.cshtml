@@ -1,0 +1,39 @@
+﻿@using System.Web.Mvc.Html
+@model BitBookApp.ViewModel.Profile.ViewModelAddress
+
+@{
+    Layout = "~/Views/Shared/_EditProfile.cshtml";
+    string city = ViewBag.City;
+    string homeTown = ViewBag.HomeTown;
+    string country = ViewBag.Country;   
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+<div>
+    <label>City </label>
+
+    @using (Html.BeginForm("Address", "Profile"))
+    {
+   @Html.TextBoxFor(a => a.City, new { @class = "form-control", Value = city })
+    <label>HomeTown </label>
+   @Html.TextBoxFor(a => a.HomeTown, new { @class = "form-control", Value = homeTown })
+    <label>Contry</label>
+    @Html.TextBoxFor(a => a.Country, new { @class = "form-control", Value = country })
+
+    <button type="submit" class="btn btn-info" style="margin-top:10px;"> Save Changes </button>
+        
+        
+    }
+
+  
+
+</div>
+</body>
+</html>

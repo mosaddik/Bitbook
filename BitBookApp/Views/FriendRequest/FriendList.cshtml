@@ -1,0 +1,41 @@
+﻿@using BitBookApp.Models
+
+
+<!DOCTYPE html>
+
+<html>
+@{
+    List<Profile> profileList = ViewBag.FriendList;
+    string image = "~/Image/ProfilePic/";
+}
+<head>
+    <link href="~/Content/Profile/EditProfile.css" rel="stylesheet"/>
+    <link href="~/Content/FriendList.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>FriendList</title>
+</head>
+<body>
+<div id="friendList" class="container col-md-12" align="center">
+    <h1> FRIEND LIST</h1>
+
+    @using (Html.BeginForm("UnFriend", "FriendRequest"))
+    {
+        <table class="table">
+            @foreach (var profile in profileList)
+            {
+                <tr>
+
+                    <td><img src=@Url.Content(image + profile.Picture) height="100" width="100"> </td>&nbsp;
+                    <td style="font-size: 30px;"> <a href=@Url.Action("Index", "Profile", new {Id = profile.Id})> @profile.FristName @profile.LastName</a></td>
+
+                    <td style="margin-left: 200px"> <button type="submit" name="Unfriend" id="Unfriend" value="@profile.Id" class="btn bg-danger btn-lg">UnFriend </button> </td>
+                </tr>
+            }
+
+        </table>
+    }
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\obj\x64\Debug\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\obj\x64\Debug\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\obj\x64\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\obj\x64\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\obj\x64\Debug\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\obj\x64\Debug\BitBookApp.pdb

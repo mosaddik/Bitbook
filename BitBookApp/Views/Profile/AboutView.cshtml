@@ -1,0 +1,47 @@
+﻿@using BitBookApp.Models
+
+@{
+    Layout = null;
+    User  user = ViewBag.User;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AboutView</title>
+</head>
+<body>
+<div>
+    @if (user.Profile != null)
+    {
+        <p> Frist Name : @user.Profile.FristName</p>
+        <p> Last Name  Name : @user.Profile.LastName</p>
+        <p> BirthDay : @user.Profile.BirthDay</p>
+        <p> Gender  : @user.Profile.Gender</p>
+        
+       
+    }
+     @if (user.Education != null)
+{
+
+}
+@if (user.Hobby != null)
+{
+
+}
+@if (user.Parents != null)
+{
+
+}
+@if (user.Address != null)
+{
+
+    
+}    
+    
+
+</div>
+</body>
+</html>

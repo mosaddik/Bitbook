@@ -1,0 +1,223 @@
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\BitBookApp.dll.config
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\BitBookApp.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\BitBookApp.pdb
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\EntityFramework.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\EntityFramework.SqlServer.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\Newtonsoft.Json.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Helpers.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Mvc.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Razor.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Webpages.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Webpages.Razor.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\EntityFramework.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\EntityFramework.SqlServer.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\Newtonsoft.Json.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Razor.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Webpages.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Webpages.Razor.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Helpers.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\bin\System.Web.Mvc.xml
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.dll
+c:\users\mosaddik\documents\visual studio 2013\Projects\BitBookApp\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\obj\Debug\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Projects\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\obj\Debug\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\Porject Files\Projects\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\obj\Debug\BitBookApp.dll
+C:\Users\Bdjobs\Desktop\New folder\Projects\BitBookApp\obj\Debug\BitBookApp.pdb
+E:\Software and Vedio\Projects\BitBookApp\bin\BitBookApp.dll.config
+E:\Software and Vedio\Projects\BitBookApp\bin\BitBookApp.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\BitBookApp.pdb
+E:\Software and Vedio\Projects\BitBookApp\bin\EntityFramework.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Helpers.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Mvc.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Razor.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Webpages.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+E:\Software and Vedio\Projects\BitBookApp\bin\EntityFramework.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Razor.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Webpages.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Helpers.xml
+E:\Software and Vedio\Projects\BitBookApp\bin\System.Web.Mvc.xml
+E:\Software and Vedio\Projects\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+E:\Software and Vedio\Projects\BitBookApp\obj\Debug\BitBookApp.dll
+E:\Software and Vedio\Projects\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\obj\Debug\BitBookApp.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Bdjobs\Desktop\New folder (2)\Projects\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\EntityFramework.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\nunit.framework.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\EntityFramework.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\nunit.framework.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\obj\Debug\BitBookApp.dll
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Mosaddik\Desktop\New folder (3)\Projects\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\BitBookApp.dll.config
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\BitBookApp.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\EntityFramework.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\Newtonsoft.Json.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\nunit.framework.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Helpers.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Mvc.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Razor.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\EntityFramework.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\Newtonsoft.Json.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\nunit.framework.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Razor.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Helpers.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\bin\System.Web.Mvc.xml
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\obj\Debug\BitBookApp.dll
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\obj\Debug\BitBookApp.pdb
+C:\Users\Bdjobs\Desktop\BitBookFinalProject\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+F:\BitBookFinalProject\BitBookApp\bin\BitBookApp.dll.config
+F:\BitBookFinalProject\BitBookApp\bin\BitBookApp.dll
+F:\BitBookFinalProject\BitBookApp\bin\BitBookApp.pdb
+F:\BitBookFinalProject\BitBookApp\bin\BitBookApp.dll.CodeAnalysisLog.xml
+F:\BitBookFinalProject\BitBookApp\bin\BitBookApp.dll.lastcodeanalysissucceeded
+F:\BitBookFinalProject\BitBookApp\bin\EntityFramework.dll
+F:\BitBookFinalProject\BitBookApp\bin\EntityFramework.SqlServer.dll
+F:\BitBookFinalProject\BitBookApp\bin\Newtonsoft.Json.dll
+F:\BitBookFinalProject\BitBookApp\bin\nunit.framework.dll
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Helpers.dll
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Mvc.dll
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Razor.dll
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Deployment.dll
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.dll
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Razor.dll
+F:\BitBookFinalProject\BitBookApp\bin\EntityFramework.xml
+F:\BitBookFinalProject\BitBookApp\bin\EntityFramework.SqlServer.xml
+F:\BitBookFinalProject\BitBookApp\bin\Newtonsoft.Json.xml
+F:\BitBookFinalProject\BitBookApp\bin\nunit.framework.xml
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Razor.xml
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.xml
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Deployment.xml
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Webpages.Razor.xml
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Helpers.xml
+F:\BitBookFinalProject\BitBookApp\bin\System.Web.Mvc.xml
+F:\BitBookFinalProject\BitBookApp\obj\Debug\BitBookApp.csprojResolveAssemblyReference.cache
+F:\BitBookFinalProject\BitBookApp\obj\Debug\BitBookApp.dll
+F:\BitBookFinalProject\BitBookApp\obj\Debug\BitBookApp.pdb

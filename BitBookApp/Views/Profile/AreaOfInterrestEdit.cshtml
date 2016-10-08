@@ -1,0 +1,25 @@
+﻿@model dynamic
+
+@{
+    Layout = "~/Views/Shared/_EditProfile.cshtml";
+    string decription = ViewBag.Hobby;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+   
+       @using (Html.BeginForm("AreaOfInterest", "Profile"))
+       {
+           <label>Area Of Interest / Hobby </label>
+           @Html.TextArea("Hobby", decription, new {@class = "form-control", Rows = 6,})
+           <button type="submit" class="btn btn-info"style="margin-top: 10px;"> Save Changes </button>
+       }
+    </div>
+</body>
+</html>

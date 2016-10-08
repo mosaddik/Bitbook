@@ -1,0 +1,179 @@
+﻿@using BitBookApp.Models
+
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string coverphoto = "~/Image/ProfilePic/" + ViewBag.CoverPhoto;
+    string proiflePicture = "~/Image/ProfilePic/" + ViewBag.ProfilePicture;
+    Profile profile = ViewBag.Profile;
+    var currentProfileuser = ViewBag.User;
+    Work work = ViewBag.Work;
+    Education education = ViewBag.Education;
+    Address address = ViewBag.Address;
+    int thisuser = ViewBag.ThisUser;
+    int confirmFriendRequest = ViewBag.ConfirmFriendRequest;
+    Hobby hobby = ViewBag.Hobby;
+}
+<html>
+<head>
+    <title> Profile </title>
+    <link href="~/Content/NewsFeed/CoverPicure.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="">
+        <div id="coverPicture" style="background-image: url('@Url.Content(coverphoto)'); background-repeat: no-repeat; background-position: center;">
+           
+
+                 @if (ViewBag.FriendReqeust == 1 && ViewBag.ConfirmFriendRequest == 0 &&ViewBag.ThisUser ==0)
+                 {
+                     <div id="addFriendButton">
+                     <button type="submit" class="btn btn-warning" style="color: black;font-weight:bold"> FriendReqeust Sends </button>
+                     </div>             
+                 }
+                 else if ((ViewBag.Friend == 0)&&(ViewBag.User != "") && (thisuser == 0) && (ViewBag.ConfirmFriendRequest == 0))
+                 {
+                 using (Html.BeginForm("Index", "FriendRequest"))
+                      {
+                          <div id="addFriendButton">
+                              <button type="submit" class="btn btn-danger"> AddFriend </button>
+                              <input type="hidden"  value=@ViewBag.User name="friendReqeust" id="friendReqeust"/>
+                          </div>
+                          <!-- end of add friend -->
+
+                      }
+                      
+                 }
+                 else if (ViewBag.ConfirmFriendRequest == 1)
+                 {
+                     
+                      <div id="addFriendButton">
+                     <button type="submit" class="btn btn-warning" style="color: black;font-weight:bold"> Confirm Request </button>
+                     </div> 
+                     
+                 }
+                 else if (ViewBag.Friend == 1)
+                 {
+                      <div id="addFriendButton">
+                     <button type="submit" class="btn btn-success" style="color: black;font-weight:bold "> Friends </button>
+                     </div> 
+                 }
+                 
+                 
+                 
+             
+             
+                 
+                    
+            
+              }
+            
+            <div id="profilePicture">
+                <img src="@Url.Content(proiflePicture)" height="200" width="200" />
+
+            </div><!--end of profile picture-->
+
+
+
+
+        </div><!-- end of cover photo picture -->
+        <div id="menu">
+            <ul id="list">
+                <li><a href="#">Time Line </a> </li>
+
+                <li><a href="#">About</a> </li>
+                @if (currentProfileuser == "")
+                {
+                     <li><a href=@Url.Action("FriendList","FriendRequest")>Friend's </a> </li>
+                }
+               
+            </ul>
+        
+            </div><!-- end of menu's of profile-->
+
+        <div id="Introduction" class="col-md-12">
+            <table class="table">
+
+                <tr>
+                    <th>WORK DETAIL </th>
+                </tr>
+
+                <tr> 
+                    <td> Work AT </td>
+                    <td> @work.Company </td>
+                </tr>
+
+                <tr>
+                    <td> WORK POSITION </td>
+                    <td> @work.Position </td>
+                </tr>
+                <tr>
+                    <td> Company Location </td>
+                    <td> @work.City </td>
+                </tr>
+
+
+
+
+
+
+                <tr>
+                    <th>Education DETAIL </th>
+                </tr>
+
+                <tr>
+                    <td> School </td>
+                    <td> @education.School </td>
+                </tr>
+                <tr>
+                    <td> College </td>
+                    <td> @education.College </td>
+                </tr>
+                <tr>
+                    <td> University </td>
+                    <td> @education.University </td>
+                </tr>
+
+
+                <tr>
+                    <th>Hobby  </th>
+                </tr>
+
+                <tr>
+                    <td> My Hobby </td>
+                    <td> @hobby.UserHobby </td>
+                </tr>
+
+                <tr>
+                    <th>Location  </th>
+                </tr>
+
+                <tr>
+                    <td>City </td>
+                    <td> @address.City </td>
+                </tr>
+                <tr>
+                    <td>Home Town </td>
+                    <td> @address.Hometown </td>
+                </tr>
+
+                <tr>
+                    <td>Country </td>
+                    <td> @address.Country </td>
+                </tr>
+
+
+
+
+
+            </table>
+        </div><!-- end of introduction div -->
+    </div><!-- end of container div-->
+
+
+
+</body>
+
+
+</html>

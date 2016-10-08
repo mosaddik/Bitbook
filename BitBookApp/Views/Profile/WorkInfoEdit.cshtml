@@ -1,0 +1,40 @@
+﻿@model BitBookApp.ViewModel.Profile.ViewModelWork
+           
+
+@{
+    Layout = "~/Views/Shared/_EditProfile.cshtml";
+
+    string company = ViewBag.Company;
+   string city =  ViewBag.City;
+   string position =  ViewBag.Position;
+    string decription = ViewBag.Description;
+}
+
+<!DOCTYPE >
+
+<html>
+<head>
+   <title>Work Info</title>
+</head>
+<body>
+<div>
+ @using (Html.BeginForm("WorkInfo", "Profile"))
+ {
+     <label>Company </label>
+     @Html.TextBoxFor(a => a.Company, new { @class = "form-control", Value = company })
+
+     <label>Position </label>
+     @Html.TextBoxFor(a => a.Position, new { @class = "form-control", Value = position })
+     <label>City</label>
+     @Html.TextBoxFor(a => a.City, new {@class = "form-control", Value = city})
+
+     <label>Description </label>
+     @Html.TextArea("Description",decription, new { @class = "form-control", Rows = 6, })
+
+     <button type="submit" class="btn btn-info" style="margin-top: 10px;"> Save Changes </button>
+ }
+
+
+</div>
+</body>
+</html>

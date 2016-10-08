@@ -1,0 +1,37 @@
+﻿
+@using System.Web.Mvc.Html
+@model BitBookApp.ViewModel.Profile.ViewModelGenarel 
+@{
+
+    Layout = "~/Views/Shared/_EditProfile.cshtml";
+   string fatherName =  ViewBag.MotherName;
+   string motherName =  ViewBag.FatherName;
+    string firstName = ViewBag.FirstName;
+    string lastName = ViewBag.LastName;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+@using (Html.BeginForm("Genarel", "Profile"))
+{
+<label>FristName </label>
+ @Html.TextBoxFor(a=>a.FristName, new { @class = "form-control" ,Value = firstName})
+<label>LastName</label>
+ @Html.TextBoxFor(a=>a.LastName, new { @class = "form-control", Value = lastName})
+
+<label>Father Name </label>
+ @Html.TextBoxFor(a => a.FatherName, new { @class = "form-control", Value = fatherName })
+<label>Mother Name </label>
+ @Html.TextBoxFor(a => a.MotherName, new { @class = "form-control", Value = motherName })
+<button type="submit" class="btn btn-info" style="margin-top: 10px;"> Save Changes </button>     
+}
+
+
+</body>
+</html>

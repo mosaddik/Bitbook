@@ -1,0 +1,15 @@
+﻿body {
+    background-color:lightgray;
+    color:white
+}
+
+#nav{
+    background-color:#3b5998;
+}
+#seachBox{
+    margin-top:8px;
+    width:50%;
+}
+#profile{
+     margin-top:8px;
+}
